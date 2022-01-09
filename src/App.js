@@ -1,9 +1,8 @@
-import {useState, Fragment, useEffect} from "react"
+import {useState, Fragment} from "react"
 import './App.css';
 import data from './data.json'
 import ReadOnlyRow from './components/ReadOnlyRow'
 import EditableRow from './components/EditableRow'
-import Products from './components/products'
 import {nanoid} from 'nanoid'
 
 function App() {
